@@ -1,0 +1,110 @@
+/*Google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header section start hear*/
+.header-container{
+  background-color: rgb(248, 208, 109);
+}
+
+.header-container nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+height: 90px;
+width: 1200px;
+align-items: center;
+}
+.nav-menu a{
+  color: black;
+padding: 0 20px;
+text-decoration: none;
+font-size: 20px;
+}
+nav h5{
+  font-size: 30px;
+}
+
+/* Header section start hear*/
+
+/* card section start here */
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.container-titel{
+  margin-top: 150px;
+  font-size: 40px;
+  color: brown;
+}
+.container-titel,
+.container-para {
+  text-align: center;
+}
+.container-para{
+  font-size: 20px;
+}
+
+.card{
+  margin-top: 90px;
+  display: flex;
+  gap: 30px;
+ padding-bottom: 80px;
+}
+.card-item img {
+width: 280px;
+}
+
+.card-item{
+ line-height: 0%; 
+  border:3px solid gray;
+  text-align: center;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+span{
+  font-size: 12px;
+}
+.card-item span i{
+  color: gold;
+  margin-right: 5px;
+}
+/* card section end here */
+
+/*footer section start here */
+footer{
+  background-color: black;
+  padding-top: 60px; 
+
+}
+
+footer p{
+  font-size:20px;
+  color: white;
+}
+
+.footer-box{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(31, 31, 216);
+  margin: 0 auto;
+  align-items: center;
+  width: 1200px;
+}
+.footer-box a{
+  width:100px ;
+  height: 100px;
+  background-color:white ;
+  padding:10px ;
+  border-radius: 20px ;
+} 
+ /*footer section end here */
